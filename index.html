@@ -4,10 +4,15 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="css/style.css"/>
 		<script src="js/bootstrap.min.js"> </script>
+		<script>
+			$(document).ready(function() {
+				$("#mainHeader").load("menu.html")
+			});
+		</script>
 		<title>MDEF Borbála Moravcsik</title>
 	</head>
 	<body class="body" style="overflow: hidden; height: 100%;">
-		<div id="main-header" class="main-header">This is the main header</div>
+		<div id="mainHeader" class="main-header">This is the main header</div>
 		<p>Hello World!</p>
 	</body>
 </html>
